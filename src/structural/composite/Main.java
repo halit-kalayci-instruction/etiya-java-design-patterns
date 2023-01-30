@@ -1,5 +1,6 @@
 package structural.composite;
 
+// 14:00
 public class Main {
     public static void main(String[] args) {
         Employee CEO = new Employee("Halit","Kalaycı",1000);
