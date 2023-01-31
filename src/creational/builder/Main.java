@@ -10,6 +10,9 @@ import creational.builder.models.Engine;
 public class Main {
     public static void main(String[] args) {
         /* Car car = new Car();
+        if(seats > 4){
+            seats = 4;
+        }
         car.seats = 4;
         car.fuel = 25.5;
         car.carType = CarType.SUV; */
