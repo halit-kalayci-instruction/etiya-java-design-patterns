@@ -7,6 +7,6 @@ public class Main {
 
         context = new Context(new OperationMultiply());
         System.out.println(context.executeStrategy(5,10));
-        
+
     }
 }
