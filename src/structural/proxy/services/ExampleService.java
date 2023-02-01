@@ -13,6 +13,12 @@ public class ExampleService implements IExampleService{
         }
         return total;
     }
+
+    @Override
+    public int setData() {
+        // Proxylerin hepsini uyar..
+        return 0;
+    }
 }
 // 50 => 1050
 // 50 => 1050

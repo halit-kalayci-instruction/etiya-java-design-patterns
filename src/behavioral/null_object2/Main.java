@@ -9,8 +9,9 @@ public class Main {
         Customer customer2 = CustomerRepository.getCustomer("İrem");
         Customer customer3 = CustomerRepository.getCustomer("Deneme");
 
-        System.out.println(customer1.getName());
-        System.out.println(customer2.getName());
-        System.out.println(customer3.getName());
+            System.out.println(customer1.getName());
+            System.out.println(customer2.getName());
+            System.out.println(customer3.getName());
     }
 }
+// 15.10

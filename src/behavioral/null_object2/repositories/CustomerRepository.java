@@ -15,6 +15,7 @@ public class CustomerRepository {
                 return realCustomer;
             }
         }
+        //return null;
         return new NullCustomer();
     }
 }

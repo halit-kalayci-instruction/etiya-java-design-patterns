@@ -22,4 +22,11 @@ public class ExampleServiceProxy implements IExampleService {
         }
         return storedDatas.get(number);
     }
+
+    @Override
+    public int setData() {
+        exampleService.setData();
+        storedDatas.clear();
+        return 0;
+    }
 }

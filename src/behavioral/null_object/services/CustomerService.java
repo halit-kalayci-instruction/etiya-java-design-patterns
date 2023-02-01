@@ -12,7 +12,11 @@ public class CustomerService implements ICustomerService{
     @Override
     public void add() {
         // loglama..
-        logger.log();
+        // NullPointerException
+
+        // Null Reference check
+        //if(logger != null)
+            logger.log();
         System.out.println("Customer eklendi..");
     }
 }

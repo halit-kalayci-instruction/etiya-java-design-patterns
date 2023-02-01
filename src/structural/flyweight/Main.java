@@ -5,7 +5,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        for(int i=0; i<200; i++){
+        for(int i=0; i<1000; i++){
             Circle circle = ShapeFactory.getCircle(getRandomColor());
             circle.setX(getRandomCoordinate());
             circle.setY(getRandomCoordinate());
